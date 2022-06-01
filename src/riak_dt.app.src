@@ -16,5 +16,7 @@
   %% indicates the level of compression. Higher number means more
   %% compression, but more time to compress. In tests so far 1 has
   %% been enough for CRDTs
+  {licenses, ["Apache License, Version 2.0"]},
+  {links, [{"GitHub", "https://github.com/shiguredo/riak_dt"}]}
   {env, [{binary_compression, 1}]}
  ]}.
