@@ -2,7 +2,9 @@
 {application, riak_dt,
  [
   {description, "Riak datatype library"},
-  {vsn, git},
+  {pkg_name, shiguredo_riak_dt},
+  {vsn, "2022.1.0"},
+  %% {vsn, git},
   {registered, []},
   {applications, [
                   kernel,
